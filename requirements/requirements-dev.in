@@ -1,0 +1,23 @@
+# packages listed here are things that you need to do development but
+# are not needed at runtime
+
+# building wheels, etc
+pip~=23.2
+setuptools~=68.2
+wheel~=0.41
+pip-tools~=7.3
+
+# Dev tools
+pydantic~=2.4
+neo4j~=5.13
+
+# make lint
+black~=23.9
+flake8~=6.1
+flake8-docstrings~=1.7
+isort~=5.12
+pre-commit~=3.4
+mypy~=1.5
+
+# code
+-r requirements.txt
