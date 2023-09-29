@@ -1,0 +1,46 @@
+{
+    "patients": [
+      {
+        "name": "John Doe",
+        "MRN": "12345",
+        "encounters": [
+          {
+            "date": "2023-09-28",
+            "diagnosis": "Common Cold",
+            "tests": [
+              {
+                "name": "Blood Test",
+                "result": "Normal"
+              },
+              {
+                "name": "X-ray",
+                "result": "Clear"
+              }
+            ]
+          },
+          {
+            "date": "2023-08-20",
+            "diagnosis": "Sprained Ankle",
+            "tests": [
+              {
+                "name": "X-ray",
+                "result": "No Fracture"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Jane Smith",
+        "MRN": "67890",
+        "encounters": [
+          {
+            "date": "2023-07-15",
+            "diagnosis": "Migraine",
+            "tests": []
+          }
+        ]
+      }
+    ]
+  }
+  
