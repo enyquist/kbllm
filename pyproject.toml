@@ -27,7 +27,7 @@ profile = "black"
 sections = ["FUTURE" ,"STDLIB", "THIRDPARTY", "FIRSTPARTY", "LOCALFOLDER"]
 import_heading_stdlib = "standard libraries"
 import_heading_thirdparty = "third party libraries"
-import_heading_firstparty = "semantic_engine_dev libraries"
+import_heading_firstparty = "kbllm libraries"
 dedup_headings = true
 line_length = 120
 

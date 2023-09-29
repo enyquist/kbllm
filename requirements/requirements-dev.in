@@ -10,6 +10,8 @@ pip-tools~=7.3
 # Dev tools
 pydantic~=2.4
 neo4j~=5.13
+pymgclient~=1.3
+ipykernel~=6.25
 
 # make lint
 black~=23.9
