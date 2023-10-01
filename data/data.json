@@ -1,46 +1,93 @@
 {
-    "patients": [
-      {
-        "name": "John Doe",
-        "MRN": "12345",
-        "encounters": [
-          {
-            "date": "2023-09-28",
-            "diagnosis": "Common Cold",
-            "tests": [
-              {
-                "name": "Blood Test",
-                "result": "Normal"
-              },
-              {
-                "name": "X-ray",
-                "result": "Clear"
-              }
-            ]
-          },
-          {
-            "date": "2023-08-20",
-            "diagnosis": "Sprained Ankle",
-            "tests": [
-              {
-                "name": "X-ray",
-                "result": "No Fracture"
-              }
-            ]
-          }
-        ]
+  "encounters": [
+    {
+      "date": "2023-09-20",
+      "patient": {
+        "name": "Alice Smith",
+        "MRN": "10001"
       },
-      {
-        "name": "Jane Smith",
-        "MRN": "67890",
-        "encounters": [
-          {
-            "date": "2023-07-15",
-            "diagnosis": "Migraine",
-            "tests": []
-          }
-        ]
-      }
-    ]
-  }
-  
+      "provider": {
+        "name": "Dr. Jane Doe",
+        "id": "1111111111",
+        "type": "Doctor",
+        "specialty": "Cardiology"
+      },
+      "summary": "Routine cardiology check-up.",
+      "patient_diagnoses": [
+        {
+          "name": "Hypertension",
+          "ICD10": "I10"
+        }
+      ],
+      "patient_tests": [],
+      "treatment_plans": []
+    },
+    {
+      "date": "2023-09-22",
+      "patient": {
+        "name": "Alice Smith",
+        "MRN": "10001"
+      },
+      "provider": {
+        "name": "Dr. Mike Blue",
+        "id": "4444444444",
+        "type": "Doctor",
+        "specialty": "Dermatology"
+      },
+      "summary": "Consultation for a skin rash.",
+      "patient_diagnoses": [
+        {
+          "name": "Eczema",
+          "ICD10": "L30.9"
+        }
+      ],
+      "patient_tests": [],
+      "treatment_plans": [
+        {
+          "name": "Hydrocortisone Cream",
+          "RXCUI": "1049637",
+          "dosage": "Apply once daily"
+        }
+      ]
+    },
+    {
+      "date": "2023-09-21",
+      "patient": {
+        "name": "Bob Johnson",
+        "MRN": "10002"
+      },
+      "provider": {
+        "name": "Nurse Amy",
+        "id": "3333333333",
+        "type": "Nurse",
+        "specialty": "Pediatrics"
+      },
+      "summary": "Yearly pediatric check-up.",
+      "patient_diagnoses": [],
+      "patient_tests": [],
+      "treatment_plans": []
+    },
+    {
+      "date": "2023-09-21",
+      "patient": {
+        "name": "Charlie Williams",
+        "MRN": "10003"
+      },
+      "provider": {
+        "name": "Physician Assistant Lucy",
+        "id": "5555555555",
+        "type": "Physician Assistant",
+        "specialty": "General Medicine"
+      },
+      "summary": "Routine check-up and blood tests.",
+      "patient_diagnoses": [],
+      "patient_tests": [
+        {
+          "name": "Blood Glucose",
+          "result": "Normal"
+        }
+      ],
+      "treatment_plans": []
+    }
+  ]
+}

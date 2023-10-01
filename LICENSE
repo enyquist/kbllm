@@ -1,6 +1,21 @@
-Ownership, copyright, and other rights in and to this work are as described in that certain Master Services Agreement between MY_COMPANY and <COMPANY_NAME> dated <MONTH_DAY_YEAR>. All rights reserved by the copyright holder.
+MIT License
 
-****Important License Disclosure***
-The source code delivered by MY_COMPANY contains three open source packages with licesnes that we would like to disclose: `chardet` (GNU Lesser General Public License, version 2.1), `certifi` (Mozilla Public License, v2.0), `tqdm` (Mozilla Public License, v2.0). Both `chardet` and `certifi` packages are rquired by the popular Python package `reqests` (https://github.com/psf/requests). `tqdm` is the most widely used package to display a progress bar, which is often required by other Python packages such as `torch` and `spaCy`. The `chardet` source code can be found at https://github.com/chardet/chardet and a copy of its license file can be obtained at https://www.gnu.org/licenses/old-licenses/lgpl-2.1.en.html The `certifi` source code can be optained at https://github.com/certifi/python-certifi and a copy of its license file can be obtained at http://mozilla.org/MPL/2.0/. The `tqdm` source code can be found at https://github.com/tqdm/tqdm and a copy of its license file can be obtained at http://mozilla.org/MPL/2.0. `tqdm` is copyright: 2015-2020 Casper da Costa-Luis, 2016 [#96] on behalf of Google Inc. and 2013 Noam Yorav-Raphael.
+Copyright (c) 2023 enyquist
 
-MY_COMPANY does not retain copyright for any open source packages used in its work, including the above three pacakges.
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
