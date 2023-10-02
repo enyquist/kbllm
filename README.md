@@ -5,7 +5,7 @@ Knowledge Base Large Language Model (KBLLM) explores the integration of LLMs and
 
 ## Features
 
-* **Patient-Centric Views**: Easily trace the entire patient's healthcare journey, from encounters with providers to prescribed treatments.
+* **Encounter-Centric Views**: Easily trace the entire patient's healthcare journey, from encounters with providers to prescribed treatments.
 
 * **Data Integration**: Effortlessly merge scattered data from different sources into a coherent and unified view.
 
