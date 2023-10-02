@@ -88,34 +88,6 @@
         }
       ],
       "treatment_plans": []
-    },
-    {
-      "date": "2023-09-21",
-      "patient": {
-          "name": "Charlie Williams",
-          "MRN": "10003"
-      },
-      "provider": {
-          "name": "Dr. Cornelius",
-          "id": "6666666666",
-          "type": "Doctor",
-          "specialty": "General Medicine"
-      },
-      "summary": "Consultation for a skin rash.",
-      "patient_diagnoses": [
-          {
-          "name": "Eczema",
-          "ICD10": "L30.9"
-          }
-      ],
-      "patient_tests": [],
-      "treatment_plans": [
-          {
-          "name": "Hydrocortisone Cream",
-          "RXCUI": "1049637",
-          "dosage": "Apply once daily"
-          }
-      ]
-  }
+    }
   ]
 }
