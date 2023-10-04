@@ -44,6 +44,8 @@ python scripts/main.py
 
 You can checkout `notebooks/memgraph_demo.ipynb` for an introduction of how to query Memgraph.
 
+A demo video is available [here](https://youtu.be/ObpOV2dRnTY).
+
 ## TODO
 
 * Design LLM Agent for data insertion
